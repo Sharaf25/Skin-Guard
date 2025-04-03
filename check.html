@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Your Skin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SKIN GUARD</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="check.html">Check Your Skin</a>
+        </nav>
+    </header>
+
+    <section class="check">
+        <h1>Check Your Skin</h1>
+        <div class="upload-box" onclick="document.getElementById('imageUpload').click()">
+            <p>Upload The Image Here</p>
+        </div>
+        <input type="file" id="imageUpload" style="display: none;">
+        <button id="reset-button">Reset</button>
+        <div class="result-box">
+            <h3>Analysis Result:</h3>
+            <p id="result-text">Waiting for image...</p>
+        </div>
+        <div class="info-box">
+            <h3>Additional Information:</h3>
+            <p id="info-text">No information available.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
