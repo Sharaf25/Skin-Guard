@@ -34,7 +34,7 @@ This project is for **educational purposes only** and is not intended to replace
 - `pip` (Python package manager)
 
 ### Steps to Download and Run the Project
-1. **Clone the Repository**:
+1. **Download Skin Guard**:
    ```bash
    Download Skin Guard
    ```
